@@ -1,0 +1,93 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+span {
+    color:  hsl(0, 100%, 74%);
+    display: block;
+    width: 93%;
+    text-align: end;
+    font-size: 0.8em;
+    margin-top: -1em;
+    font-style: italic;
+}
+
+.container-interno {
+    max-width: 350px;
+}
+
+.container-interno h1 {
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+
+.container-interno p {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+aside > .container {
+    max-width: 80%;
+}
+
+body {
+    background-image: url(/images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+}
+
+.cabecalho-for {
+    background-color: hsl(248, 32%, 49%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.2);
+    
+}
+
+form {
+    padding-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+input, button {
+    margin: 15px;
+    max-width: 90%;
+}
+
+.form-control {
+    padding: 15px;
+}
+
+#enviar {
+    background-color: hsl(154, 59%, 51%);
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.aceite {
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 22px;
+    color: hsl(246, 25%, 77%);
+    max-width: 90%;
+    
+}
+
+.aceite a {
+    font-weight: bold;
+    color:  hsl(0, 100%, 74%);
+}
+
+.placeholderError::placeholder {
+    color: red;
+}
